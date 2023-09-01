@@ -1,0 +1,18 @@
+//==========================================================
+//Usando a comando RAND para gera números aleatórios
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h> //Biblioteca para configurar o idioma protuguês Brasil.
+#include <time.h>  //Biblioteca para gerar numeros aleatorios com o comando RAND
+
+
+int main(int argc, char *argv[]) {
+	setlocale(LC_ALL, "portuguese");
+	
+	printf("\n ******[Jogo do Dados]******\n\n");
+	srand(time,NULL);
+	printf("Face: %d \n", rand()%6 + 1);
+	
+	system("pause");
+	return 0;
