@@ -5,7 +5,7 @@ Nome: Anderson */
 #include <stdlib.h>
 
 int main(){
-	printf("Ola trouxa e otario.");
+	printf("Ola estou testando os comandos.");
 	//scanf();
 }
 
